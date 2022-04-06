@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navhealth"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="@string/health" />
+    <item
+        android:id="@+id/navsports"
+        android:icon="@drawable/ic_baseline_sports_cricket_24"
+        android:title="@string/sports" />
+    <item
+        android:id="@+id/navbusiness"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:title="@string/business" />
+    <item
+        android:id="@+id/navscience"
+        android:icon="@drawable/ic_baseline_biotech_24"
+        android:title="@string/science" />
+    <item
+        android:id="@+id/navtech"
+        android:icon="@drawable/ic_baseline_computer_24"
+        android:title="@string/technology" />
+    <item
+        android:id="@+id/naventertain"
+        android:icon="@drawable/ic_baseline_ad_units_24"
+        android:title="@string/entertainment" />
+
+
+</menu>
