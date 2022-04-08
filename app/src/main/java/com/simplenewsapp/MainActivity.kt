@@ -1,5 +1,6 @@
 package com.simplenewsapp
 
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -7,6 +8,7 @@ import android.view.View
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -288,10 +290,9 @@ class MainActivity : AppCompatActivity(), listitemclicked {
 
 
     override fun onitemclicked(item: NewsData) {
-        /* val builder =  CustomTabsIntent.Builder();
+         val builder =  CustomTabsIntent.Builder();
          val customTabsIntent = builder.build();
-         customTabsIntent.launchUrl(this, Uri.parse(item.url)) */
-        Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
+         customTabsIntent.launchUrl(this, Uri.parse(item.url))
 
     }
 }
